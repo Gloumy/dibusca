@@ -30,7 +30,7 @@
       <v-container class="fill-height" fluid>
         <v-row align="center" justify="center">
           <v-col class="text-center">
-            <span>Home</span>
+            <home />
           </v-col>
         </v-row>
       </v-container>
@@ -42,10 +42,14 @@
 </template>
 
 <script>
+import Home from "./views/Home";
+
 export default {
   name: "App",
 
-  components: {},
+  components: {
+    Home
+  },
 
   data: () => ({
     drawer: false,

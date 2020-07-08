@@ -1,9 +1,15 @@
 <template>
-  <h2>Homee</h2>
+  <card-preview />
 </template>
 
 <script>
-export default {};
+import CardPreview from "../components/CardPreview";
+
+export default {
+  components: {
+    CardPreview
+  }
+};
 </script>
 
 <style>
