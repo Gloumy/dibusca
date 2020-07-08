@@ -3,13 +3,10 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+import UserDetails from "./modules/user_details";
+
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    UserDetails,
   }
 })
